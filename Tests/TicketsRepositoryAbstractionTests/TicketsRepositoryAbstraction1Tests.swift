@@ -1,7 +1,7 @@
 import XCTest
-@testable import TicketsRepositoryAbstraction1
+@testable import TicketsRepositoryAbstraction
 
-final class TicketsRepositoryAbstraction1Tests: XCTestCase {
+final class TicketsRepositoryAbstractionTests: XCTestCase {
     func testExample() {}
 
     static var allTests = [

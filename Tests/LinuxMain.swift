@@ -1,7 +1,7 @@
 import XCTest
 
-import TicketsRepositoryAbstraction1Tests
+import TicketsRepositoryAbstractionTests
 
 var tests = [XCTestCaseEntry]()
-tests += TicketsRepositoryAbstraction1Tests.allTests()
+tests += TicketsRepositoryAbstractionTests.allTests()
 XCTMain(tests)
