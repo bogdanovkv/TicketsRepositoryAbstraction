@@ -9,7 +9,7 @@
 import Foundation
 
 /// Модель билета
-public struct TicketModel: Decodable {
+public struct TicketModel {
 
 	/// IATA код авиалинии.
 	public let airlineCode: String
