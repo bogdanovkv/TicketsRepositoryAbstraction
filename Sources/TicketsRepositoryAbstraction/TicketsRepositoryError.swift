@@ -7,7 +7,8 @@
 
 import Foundation
 
-enum TicketsRepositoryError: Error {
+/// Ошибки от репозитория билетов
+public enum TicketsRepositoryError: Error {
 	case urlError
 	case nilData
 }
