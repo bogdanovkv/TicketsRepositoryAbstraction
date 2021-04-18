@@ -28,4 +28,26 @@ public struct TicketModel {
 
 	/// Действует до
 	public let expires: String
+
+	/// Инициализатор
+	/// - Parameters:
+	///   - airlineCode: IATA код авиалинии
+	///   - departureDate: дата вылета
+	///   - arrivalDate: дата вылета обратно
+	///   - cost: цена билетов туда и обратно
+	///   - flightNumber: номер рейса
+	///   - expires: действует до
+	public init(airlineCode: String,
+				departureDate: String,
+				arrivalDate: String,
+				cost: Int,
+				flightNumber: Int,
+				expires: String) {
+		self.airlineCode = airlineCode
+		self.departureDate = departureDate
+		self.arrivalDate = arrivalDate
+		self.cost = cost
+		self.flightNumber = flightNumber
+		self.expires = expires
+	}
 }
